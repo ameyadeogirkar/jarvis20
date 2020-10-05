@@ -1,0 +1,36 @@
+////////////////////////////
+code length 
+
+min = 70
+max = 150
+
+////////////////////////////
+
+total functions 
+
+min = 5
+max = 10
+
+////////////////////////////
+
+daily progress
+
+day1 = 32 line code
+day2 = 100 line code
+
+////////////////////////////
+
+tommarow target
+
+day2 = 70 line code *
+day3 = 130 line code
+
+////////////////////////////
+
+day3 = href(hyperlink)
+       open google
+       open app
+       play music
+       chating
+
+////////////////////////////

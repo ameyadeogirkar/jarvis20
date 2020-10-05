@@ -1,0 +1,59 @@
+def takeCommand():
+    print("type command below...")
+    command = input("..")
+    print(command)
+
+    if command == "hello":
+        print("Hello there")
+        speak("Hello there")
+    
+    elif command == "how are you":
+        print("I am good")
+        print("How are you")
+        speak("I am good")
+        speak("How are you")
+    
+    elif command == "jarvis":
+        print("Yes my master")
+        speak("Yes my master")
+        print("what can i do for you")
+        speak("what can i do for you")
+
+    elif command == "who are you":
+        print("I am JARVIS, your private assistnt")
+        speak("I am JARVIS, your private assistnt")
+        print("how can i help you")
+        speak("how can i help you")
+
+    elif command == "what can you do":
+        print("i can talk to you for a very long time")
+        print("without getting you borred")
+        speak("i can talk to you for a very long time")
+        speak("without getting you borred")
+
+    elif command == "who created you":
+        print("I was created by my AMEYA DEOGIRKAR")
+        speak("I was created by my AMEYA DEOGIRKAR")
+
+    elif command == "where do you live":
+        print("I live in this computer")
+        speak("I live in this computer")
+
+    elif command == "tell me a joke":
+        print("ok try this one")
+        speak("ok try this one")
+        print("which cake is baked in a pan")
+        speak("which cake is baked in a pan")
+        speak("")
+        print("a Pan-Cake")
+        speak("a Pan-Cake")
+        speak("hahahahahahhahahahahahahaha")
+
+    elif command == "can i change your name":
+        print("I am sorry,you cannot do this")
+        speak("I am sorry,you cannot do this")
+    
+    elif command == "open google":
+        print("opeaning google")
+        speak("opeaning google")
+        print("sorry ")
