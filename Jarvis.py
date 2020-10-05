@@ -68,9 +68,23 @@ def takeCommand():
         return "None" #None string will be returned
     return query
 
-def TakeComand():
+def takeCommand():
     print("type your command below")
-    command = input("...")
+    a = input("...")
+
+    if a == "open youtube":
+        print("opeaning youtube")
+        webbrowser.open("youtube.com")
+    elif a =="open google":
+        print("opeaning google")
+        webbrowser.open("google.com")
+    elif a=="open white hat":
+        print("opeaning WhiteHat jr")
+        webbrowser.open("WhiteHatJr.com")
+    elif a=="open VS code":
+        print("openaing Visual studio code")
+        codePath = "C:\\Users\\TAO-WSM\\AppData\\Local\\Programs\\Microsoft VS Code"
+        os.startfile(codePath)
     
       
 
